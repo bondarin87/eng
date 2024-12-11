@@ -32,7 +32,7 @@ margin: 0 0px;
 padding: 5px 35px;
 
 }
-.prev:hover, .next:hover{
+.prev:active, .next:active{
     background-color: orange;
 }
 .wrap__btn {
