@@ -1,0 +1,52 @@
+.wrap {
+    background-color: dimgray;
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    
+}
+.elem {
+    
+    
+    
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+    margin: 40px auto;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    font-size: 36px;
+
+}
+.prev, .next {
+border: solid 1px black ;
+width: 55px;
+margin: 0 0px;
+padding: 5px 35px;
+
+}
+.prev:hover, .next:hover{
+    background-color: orange;
+}
+.wrap__btn {
+    width: 300px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    
+    
+   
+
+}
+button {
+    margin: 5px 20px;
+    font-size: px;
+    font-weight: bold;
+}
